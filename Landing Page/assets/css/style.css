@@ -41,7 +41,7 @@ header{
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
-    color: rgb(19, 52, 109);
+    color: #13346d;
     font-weight: 400;
 }
 
@@ -68,6 +68,7 @@ header{
         }
         
         .mobile-menu-icon button {
+            padding-top: 2rem;
             background-color:transparent;
             border: none;
             cursor: pointer;
@@ -108,8 +109,8 @@ padding-top: 1.2rem;
 }
 
 main{
-    background: rgb(78,73,179);
-    background: linear-gradient(173deg, rgba(78,73,179,1) 3%, rgba(96,96,255,1) 33%, rgba(255,255,255,1) 70%);
+    background: #4e49b3;
+    background: linear-gradient(173deg, rgb(78, 73, 179) 3%, rgb(96, 96, 255) 33%, rgb(255, 255, 255) 70%);
 }
 
 .estudantes img {
@@ -119,3 +120,4 @@ main{
     padding-top: 11rem;
 
 }
+
