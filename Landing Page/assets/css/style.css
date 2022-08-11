@@ -1,7 +1,8 @@
 *{
     padding: 0 ;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    }
     
 }
 
@@ -54,7 +55,7 @@ header{
     display: none;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 760px) {
         .nav-bar{
             padding: 0.5rem 4rem ;
         }
@@ -94,27 +95,34 @@ padding-top: 1.2rem;
 }
 
 
+.estudantes{
+    display: flex;
+    flex-direction: column ;
+    gap: 5px;
+    
+}
+
+
 .first-line{
-    font-size:50px;
-    color: white;
-    text-align: end;
-    padding-right: 3rem;
+
+padding-left: 1170px;
 }
 
 .second-line{
-    font-size:50px;
-    color: white;
-    text-align: end;
-    padding-right: 5rem;
-    border-left: solid yellow 10px;
+color: #6060ff 33%;
+background-color: yellow;
+width: 420px;
+height: 35px;
+border-radius: 8px;
+padding-left:1140px ;
 }
 
 main{
     background: rgb(78,73,179);
-    background: linear-gradient(173deg, rgba(78,73,179,1) 3%, rgba(96,96,255,1) 33%, rgba(255,255,255,1) 70%);
+    background: linear-gradient(173deg, rgba(78,73,179,1) 3%, #6060ff 33%, rgba(255,255,255,1) 70%);
 }
 
-.estudantes img {
+.img-estudantes {
     display: flex;
     justify-content: flex-start;
     width: 800px;
