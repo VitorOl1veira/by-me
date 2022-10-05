@@ -1,19 +1,20 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 .container{
     display: flex;
-    
+    justify-content: center;
+
   
   
-  
-    /*só a cor*/ 
+    /* pra colocar só a cor */
     background-color: #f9eac3;
   padding: 16px;
   height: 500px;
 }
-
+  /* estilo bloco 1 */
 .bloco1{
     background-color: #c6d8f0;  
   height: 150px;
@@ -22,8 +23,9 @@
   font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 16px;
-}
 
+}
+/* estilo bloco 2 */
 .bloco2{
     background-color: #d8bfd8;
   height: 150px;
@@ -32,8 +34,9 @@
   font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 16px;
+  flex-grow: 1; /* tamanho do bloco no flexbox - o normal é 0 */
 }
-
+/* estilo bloco 3 */
 .bloco3{
     background-color: #ff9999;
   height: 150px;

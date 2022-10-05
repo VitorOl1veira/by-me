@@ -4,6 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
     }
     
+body{
+    background-color: #6060ff;
 }
 
 header{
@@ -110,7 +112,6 @@ padding-left: 1170px;
 }
 
 .second-line{
-<<<<<<< HEAD
 color: #6060ff 33%;
 background-color: yellow;
 width: 420px;
@@ -122,16 +123,6 @@ padding-left:1140px ;
 main{
     background: rgb(78,73,179);
     background: linear-gradient(173deg, rgba(78,73,179,1) 3%, #6060ff 33%, rgba(255,255,255,1) 70%);
-=======
-    font-size:50px;
-    color: white;
-    text-align: end;
-}
-
-main{
-    background: #4e49b3;
-    background: linear-gradient(173deg, rgb(78, 73, 179) 3%, rgb(96, 96, 255) 33%, rgb(255, 255, 255) 70%);
->>>>>>> 9d8368f72d2be7da51823372b4a009245b1c64c4
 }
 
 .img-estudantes {
