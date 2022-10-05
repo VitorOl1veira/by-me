@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+
+</head>
+<body>
+ 
+<div class="campo">
+    <h1 id="titulo">Cadastrar novo usuario</h1>
+    <p id="subtitulo">Complete com suas informaçoes</p>
+    <br>
+</div>
+
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome">Nome*</label>
+            <input type="text" name="Nome" id="nome" required>
+        </div>
+        <div class="campo">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="sobrenome" required>
+        </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" name="Email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <Label><strong>Qual genero você se define?</strong></Label>
+        <Label for="genero">
+            <input type="radio" name="genero" value="masculino" checked> Masculino 
+        </Label>
+
+        <Label for="genero">
+            <input type="radio" name="genero" value="feminino"> Feminino 
+        </Label>
+
+        <Label for="genero">
+            <input type="radio" name="genero" value="outro"> Outro 
+        </Label>
+    </div>
+
+    <div class="campo">
+        <Label>Média de idade</Label>
+        <select id="idade">
+            <option selected disabled value="">Selecione</option>
+            <option>12-15</option>
+            <option>16-18</option>
+            <option>18+</option>
+        </select>
+    </div>
+
+    <fieldset class="grupo">
+        <div id="check">
+            <Label>Selecione as matérias que você deseja cursar:</Label>
+            <br>
+            <br>
+            <input type="checkbox" id="materia1" name="materia1" value="Matematica">
+            <label for="materia1">Matematica</Label>
+                
+                <input type="checkbox" id="materia2" name="materia2" value="Lingua Portguesa">
+            <label for="materia2">Lingua Portugesa</Label>
+           
+                <input type="checkbox" id="materia3" name="materia3" value="Ciencias">
+            <label for="materia3">Ciencias</Label>
+
+                <input type="checkbox" id="materia4" name="materia4" value="Artes">
+            <label for="materia4">Artes</Label>
+
+                <input type="checkbox" id="materia5" name="materia5" value="Geografia">
+            <label for="materia5">Geografia</Label>
+                      
+                <input type="checkbox" id="materia6" name="materia6" value="História">
+            <label for="materia6">História</Label>
+        </div>
+    </fieldset>
+
+    <button class="btn" type="submit">Enviar Cadastro</button>
+</form>
+
+</body>
+</html>
