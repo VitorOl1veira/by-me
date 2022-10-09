@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Cadastro</title>
 
 </head>
 <body>
- 
+
+<header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        </ul>
+    </div>
+    </div>
+</header>
+
 <div class="campo">
     <h1 id="titulo">Cadastrar novo usuario</h1>
     <p id="subtitulo">Complete com suas informaçoes</p>
     <br>
 </div>
 
-<form>
+<form id="corpo">
     <fieldset class="grupo">
         <div class="campo">
             <label for="nome">Nome*</label>
@@ -49,13 +76,8 @@
     </div>
 
     <div class="campo">
-        <Label>Média de idade</Label>
-        <select id="idade">
-            <option selected disabled value="">Selecione</option>
-            <option>12-15</option>
-            <option>16-18</option>
-            <option>18+</option>
-        </select>
+        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required>
     </div>
 
     <fieldset class="grupo">
@@ -85,6 +107,8 @@
 
     <button class="btn" type="submit">Enviar Cadastro</button>
 </form>
+
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>
